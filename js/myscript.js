@@ -7,3 +7,7 @@ const inputAge = document.querySelector("#input-age");
 const btnCalc = document.querySelector(".btn-calc");
 const btnReset = document.querySelector(".btn-reset");
 const eleOutput = document.getElementById("output");
+
+btnCalc.addEventListener("click", function() {
+    
+})
