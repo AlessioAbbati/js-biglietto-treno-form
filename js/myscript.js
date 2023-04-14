@@ -34,3 +34,9 @@ btnCalc.addEventListener("click", function() {
 
     document.getElementById("output").innerHTML = finalPrice.toFixed(2);
 })
+
+btnReset.addEventListener("click", function(){
+    inputDistance.value = "";
+    inputAge.value = "";
+    eleOutput.innerHTML = "";
+})
